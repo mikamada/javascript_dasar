@@ -53,12 +53,29 @@
 // console.log(arr2.join(' - '));
 
 // 6. sort() => mengurutkan dari yg terkecil - besar (string/int)
-var angka = [1,2,3,10,4,6,8,20];
-var abjad = ['a','b','d','c','e'];
-// abjad.sort();
-// console.log(abjad);
-angka.sort(function(a,b){
-      return a-b;
+// var angka = [1,2,3,10,4,6,8,20];
+// var abjad = ['a','b','d','c','e'];
+// // abjad.sort();
+// // console.log(abjad);
+// angka.sort(function(a,b){
+//       return a-b;
+// });
+// console.log(angka);
+
+// 7. filter => mengembalikan array
+// var x = [1,2,3,10,6,5,8,9];
+// var y = x.filter(function(e){
+//       return e > 5;
+// });
+// console.log(y);
+
+// 8. find => hanya mengembalikan 1 nilai
+var x = [1,2,3,10,6,5,8,9];
+var y = x.find(function(e){
+      return e == 5;
 });
-console.log(angka);
+
+console.log(y);
+
+
 
