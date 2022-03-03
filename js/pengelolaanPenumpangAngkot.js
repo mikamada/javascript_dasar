@@ -35,8 +35,7 @@ var tambahPenumpang = function(namaPenumpang, penumpang){
                 console.log(namaPenumpang + ' sudah ada di dalam angkot');
                 // kembalikan isi array & keluar dari function
                 return penumpang;
-            }
-            else if(i == penumpang.length - 1) {
+            } else if(i == penumpang.length - 1) {
                 // tambah penumpang di akhir array
                 penumpang.push(namaPenumpang); 
                 // kembalikan isi array & keluar dari function
@@ -45,3 +44,4 @@ var tambahPenumpang = function(namaPenumpang, penumpang){
         }
     }
 }
+
