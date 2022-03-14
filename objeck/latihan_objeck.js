@@ -19,7 +19,7 @@ function Angkot(sopir, trayek, penumpang, kas){
         for (var i = 0; i < this.penumpang.lenght; i++){
             if(this.penumpang[i] == namaPenumpang){
                 this.penumpang[i] = undefined;
-                this.kas = bayar;
+                this.kas += bayar;
                 return this.penumpang;
             }
         }
