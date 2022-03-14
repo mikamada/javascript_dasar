@@ -70,12 +70,16 @@
 // console.log(y);
 
 // 8. find => hanya mengembalikan 1 nilai
-var x = [1,2,3,10,6,5,8,9];
-var y = x.find(function(e){
-      return e == 5;
-});
+// var x = [1,2,3,10,6,5,8,9];
+// var y = x.find(function(e){
+//       return e == 5;
+// });
 
-console.log(y);
+// console.log(y);
 
+// replace method
+const p = 'The quick brown fox jumps over the lazy dog. If the dog reacted, was it realy';
+console.log(p.replace('dog', 'monkey'));
 
-
+const regex = /Dog/i;
+console.log(p.replace(regex, 'ferret'));
