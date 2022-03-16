@@ -36,8 +36,8 @@ function Mahasiswa(nama, energi) {
 }
 
 Mahasiswa.prototype.makan = function(porsi) {
-    this.energi += porsi;
-    return ` selamat makan ${this.nama}`;
+	this.energi += porsi;
+	return ` selamat makan ${this.nama}`;
 }
 
 Mahasiswa.prototype.main = function(jam) {
